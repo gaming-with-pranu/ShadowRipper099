@@ -3,11 +3,7 @@
 name: Shadow Ripping Tools
 
 on:
-  workflow_dispatch:
-    inputs:
-      code:
-        description: Paste Powershell Code
-        required: true
+  workflow_dispatch
 
 jobs:
   build:
